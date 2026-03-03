@@ -43,20 +43,6 @@ The solution was built to satisfy the following technical and operational requir
 ![High Level Architecture](docs/data-architecture.png)
 
 
-### Architecture as Code – Mermaid
-
-```mermaid
-flowchart LR
-    A["SQL Server (On-Prem)"]
-    B["Azure Data Factory (SHIR)"]
-    C["ADLS Gen2 - Bronze"]
-    D["Azure Databricks - Silver"]
-    E["Azure Databricks - Gold"]
-    F["Power BI"]
-
-    A --> B --> C --> D --> E --> F
-```
-
 ### Design Highlights
 
 - Separation of compute (Databricks) and storage (ADLS)  
