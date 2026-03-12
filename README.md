@@ -59,7 +59,7 @@ This dataset represents a **large-scale retail transactional workload with over 
 
 The platform processes **230M+ sales transactions generated from 10M orders across 161 retail branches**, showcasing scalable ingestion and transformation using **Azure Data Factory and Azure Databricks** within a modern Lakehouse architecture.
 
-——-
+---
 
 ## 🎯 Business Impact
 
